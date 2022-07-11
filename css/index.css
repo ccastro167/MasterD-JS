@@ -1,0 +1,110 @@
+section{
+    padding:2rem 7%;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../images/phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-b{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../images/world.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content, .home-b .content{
+    max-width: 60rem;
+}
+
+.home .content h3, .home-b .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.home .content p, .home-b .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#eee;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+
+/*
+XSLTREQUEST
+*/
+
+section.content-recetas{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 100%;
+}
+
+article.content-recetas{
+	width: 300px;
+	margin:20px 20px 40px 20px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+article.content-recetas a, article.content-isa h3, article.content-pub h3{
+	display: inline-block;
+	font-size: 1.1em;
+	margin: 15px 10px 0px 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+article.content-recetas a:hover{
+	color: #8A8070;
+    cursor: pointer;
+}
+
+article.content-recetas img{
+	display: inline-block;
+	width: 375px;
+	height: 250px;
+	margin: 5px;
+}
+
+.fecha{
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: lighter;
+	border-top: 1px solid #7ABA96;
+	border-bottom: 1px solid #7ABA96;
+}
+
+article p
+{
+	font-size: 0.9em;
+	font-weight: lighter;
+	margin: 15px 10px 10px 10px; 
+	text-align: justify;
+}

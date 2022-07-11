@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="../css/estilosGeneral.css" rel="stylesheet" type="text/css">
+    <title>Presupuesto</title>
+</head>
+
+<body onload="loadItems()">
+    <header>
+        <!--PONER IMAGEN: -LOGO-->
+        <figure href="#" class="logo">
+            <img src="../images/logoMobile.png" alt="">
+        </figure>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="presupuesto.html">Presupuesto</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+</header>
+    <main>
+        <h1>Formulario de Solicitud</h1>
+        <form name="formulario" action="" method="get" >
+            <h4>Datos</h4>
+            <!--<label>Datos</label>-->
+            <label>Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu Nombre" autofocus><br>
+
+            <label>Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus Apellidos"><br>
+
+            <label>Teléfono de contacto:</label>
+            <input type="text" name="telf" id="telf" placeholder="612 34 56 78" onkeypress= "return valideKey(event)"><br>
+
+            <label>Email:</label>
+            <input type="email" name="mail" id="mail" placeholder="Escribe tu email"><br>
+
+            <h4>Presupuesto</h4>               
+            <!--<label class="lista_productos">Elige un Producto:
+                <input list="lista" name="Productos a vender" placeholder="Seleccione una opcion" /></label>
+            <datalist id="lista">
+                <option>iPhone 13 Pro Max</option>
+                <option>Samsung Galaxy S22 Ultra 5G</option>
+                <option>Samsung Galaxy Z Fold3</option>
+                <option>Huawei P50 Pro</option>
+                <option>Huawei Mate X2</option>
+                <option>OnePlus 10 Pro</option>
+            </datalist><br>-->
+
+
+            <!--
+                <option>iPhone 13 Pro Max</option>
+                <option>Samsung Galaxy S22 Ultra 5G</option>
+                <option>Samsung Galaxy Z Fold3</option>
+                <option>Huawei P50 Pro</option>
+                <option>Huawei Mate X2</option>
+                <option>OPPO Find X3 Pro</option>
+                <option>OnePlus 10 Pro</option>
+            -->
+            <label for="producte">Elige un Producto:</label>
+            <select name="productos" id="dropDownList" onclick="addBudget()">
+                <option>Seleccione una opción</option>
+                <option>iPhone 13 Pro Max</option>
+                <option>Samsung Galaxy S22 Ultra 5G</option>
+                <option>Samsung Galaxy Z Fold3</option>
+                <option>Huawei P50 Pro</option>
+                <option>Huawei Mate X2</option>
+                <option>OnePlus 10 Pro</option>
+            </select><br>
+
+            <label>Plazo en meses:</label>
+            <input type="number" placeholder="cuota" id="cuotaMeses" step="1" min="0" onkeyup="addBudget()"><br>
+
+            <label>Elija los extras para el producto:
+            <input type="checkbox" class="check" value="89.70" onclick="addBudget()"> Color Personalizado
+            <input type="checkbox" class="check" value="50.10" onclick="addBudget()"> Nombre Grabado
+            <input type="checkbox" class="check" value="19.50" onclick="addBudget()"> Funda y Protector de Pantalla
+            <input type="checkbox" class="check" value="40.00" onclick="addBudget()"> Bateria Externa</label><br>
+
+
+            <label>Presupuesto estimado:</label>
+            <input type="text" id="totalPrice" placeholder="0 €" size="8" disabled ><br>
+
+
+            <p>Aceptación condiciones y envío de presupuesto</p>
+            <label class="importante">He leido y acepto la Política de Privacidad</label>
+            <input type="checkbox" name="terminos"  id="terminos" required><br>
+            <span>(*)Aceptar los <a class="aTerms" href="">términos y condiciones </a>de uso</span><br>
+            <input type="button" value="Enviar formulario" onclick="validateData(this.form)">
+            <!-- onclick="validarInputs()"-->
+            <input type="reset" value="Borrar">
+
+            <p>Todos los derechos reservados 2022</p>
+
+        </form>
+    </main>
+    <script src="../js/index.js"></script>
+    <footer >
+        <div class="social-container">
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-facebook-f"><img src="../images/png/facebook.png"></i></a></li></br>
+                <li><a href="#"><i class="fa fa-twitter"><img src="../images/png/twitter.png"></i></a></li></br>
+                <li><a href="#"><i class="fa fa-instagram"><img src="../images/png/instagram.png"></i></a></li>
+                <li><a href="#"><i class="fa fa-codepen"><img src="../images/png/telegram3.png"></i></a></li>
+            </ul>
+        </div>
+        <div class="credit">created by <span>mr. web designer</span> | all rights reserved</div>
+    </footer>
+    <script src="../js/presupuesto.js"></script>
+</body>
+
+</html>

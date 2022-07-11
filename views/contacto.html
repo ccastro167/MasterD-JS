@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/contacto.css" rel="stylesheet" type="text/css">
+    <link href="../css/estilosGeneral.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="../js/contacto.js"></script>
+    <!--Links para cargar MAPA-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+    <link rel="stylesheet" href="../css/leaflet-routing-machine.css" />
+
+    
+    <title>Contacto</title>
+</head>
+
+<body onload="cargarMapa()">
+    <header>
+        <!--PONER IMAGEN: -LOGO-->
+        <figure href="#" class="logo">
+            <img src="../images/logoMobile.png" alt="">
+        </figure>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./presupuesto.html">Presupuesto</a></li>
+            <li><a href="./galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+</header>
+    <main>
+        <h1>DATOS DE CONTACTO</h1>
+        <section class="content">
+            <article id="map"></article>
+            <article class="content-contact">
+                <h3>Contacto</h3>
+                <div class="content-final">
+                    <img src="../images/png/home.png">
+                    <p><strong>Dirección:</strong> Avinguda Meridiana 292 </p>
+                </div>
+                <p><strong>CP:</strong> 08027</p>
+                <p><strong>Ciudad:</strong> Barcelona</p>
+                <div class="content-final">
+                    <img src="../images/png/phone.png">
+                    <p><strong>Telf:</strong> 93 21 77 899</p>
+                </div>
+                <div class="content-final">
+                    <img src="../images/png/mail3.png">
+                    <p><strong>Mail:</strong> beSmart@smart.es</p>
+                </div>
+            </article>
+        </section>
+        <script src="../js/leaflet-routing-machine.js"></script>
+    </main>
+    <footer class="footer">
+        <div class="social-container">
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-facebook-f"><img src="../images/png/facebook.png"></i></a></li></br>
+                <li><a href="#"><i class="fa fa-twitter"><img src="../images/png/twitter.png"></i></a></li></br>
+                <li><a href="#"><i class="fa fa-instagram"><img src="../images/png/instagram.png"></i></a></li>
+                <li><a href="#"><i class="fa fa-codepen"><img src="../images/png/telegram3.png"></i></a></li>
+            </ul>
+        </div>
+        <div class="credit">created by <span>mr. web designer</span> | all rights reserved</div>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

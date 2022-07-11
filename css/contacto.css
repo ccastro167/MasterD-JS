@@ -1,0 +1,32 @@
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+.content img {
+    width: 25px;
+    height: 25px;
+}
+
+.content .content-contact{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content .content-final{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#map{
+   position:relative;
+   width:55%;
+   height:80vh;
+   border: 1px solid black;
+}
