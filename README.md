@@ -1,7 +1,7 @@
 # MasterD-JS
 Proyecto Final Javascript
 
-1.1. INSTRUCCIONES
+##1.1. INSTRUCCIONES
 Como ejercicio final del módulo se debe crear un sitio web, podrá ser de una
 empresa ficticia o vuestro sitio como programadores web. La información no
 tiene por qué ser real.
