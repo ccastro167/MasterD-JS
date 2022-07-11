@@ -49,33 +49,35 @@ o Presupuesto (2 puntos): En esta segunda parte del formulario se solicitará al
     ▪ Extras: Deberás utilizar varias etiquetas HTML que permitan que el usuario marque todas las opciones extra que
     desea añadir al producto elegido. Cada opción seleccionada aumentará el presupuesto final en un importe determinado.
     ▪ Presupuesto: Deberás utilizar las etiquetas HTML pertinentes para mostrar al usuario el presupuesto final, basado
-    en las elecciones que ha realizado. Este campo deberá actualizarse con cualquier cambio que se realice en las elecciones de producto, meses y extras, sin utilizar      botones ni refrescar la página.
+    en las elecciones que ha realizado. Este campo deberá actualizarse con cualquier cambio 
+    que se realice en las elecciones de producto, meses y extras, sin utilizar botones ni refrescar la página.
     ▪ Condiciones y envío del presupuesto: En este apartado deberás utilizar una etiqueta HTML que te permita crear
     una opción para aceptar las condiciones de privacidad de la página y un botón que permita enviar el formulario. 
     De forma adicional, podrás crear un botón que permita resetear el formulario. Recuerda que para poder enviar el
     formulario todos los campos deberán estar cumplimentados (incluido el de la aceptación de las condiciones) y 
     deberán validar todos los datos del apartado de contacto.
 
-#### • Una página de contacto (1 punto) , que se llamará: contacto.html. En esta
-página deberás insertar un mapa dinámico, que marque la ubicación de
-tu negocio y calcule la ruta hasta la ubicación del cliente. Para ello podrás
-hacer uso de una API como la de Google Maps o OpenStreetMaps, así
-como de varias librerías de JavaScript. Además del mapa, deberás especificar los datos de contacto y ubicación de la empresa, la ubicación de estos queda a tu elección.
-#### • Estilo y elementos obligatorios (1 punto):
-El sitio deberá tener un estilo atractivo y actual. Puedes ayudarte de paletton para elegir los colores del sitio web, puedes seleccionar un color y
-su complementario o un máximo de tres colores además del blanco y
-negro. Recuerda que también puedes inspirarte en páginas reales para
-crearlo.
+#### • Una página de contacto (1 punto) , que se llamará: contacto.html. 
 
-Además, cada página del sitio deberá contener de forma obligatoria los
-siguientes elementos:
-o Nombre de la página o logotipo: Deberá estar situado en la parte
+En esta página deberás insertar un mapa dinámico, que marque la ubicación de tu negocio y calcule la ruta hasta la ubicación del cliente. 
+Para ello podrás hacer uso de una API como la de Google Maps o OpenStreetMaps, así como de varias librerías de JavaScript. 
+Además del mapa, deberás especificar los datos de contacto y ubicación de la empresa, la ubicación de estos queda a tu elección.
+
+#### • Estilo y elementos obligatorios (1 punto):
+
+El sitio deberá tener un estilo atractivo y actual. Puedes ayudarte de paletton para elegir los colores del sitio web, 
+puedes seleccionar un color y su complementario o un máximo de tres colores además del blanco y
+negro. Recuerda que también puedes inspirarte en páginas reales para crearlo.
+
+Además, cada página del sitio deberá contener de forma obligatoria los siguientes elementos:
+
+**o Nombre de la página o logotipo**: Deberá estar situado en la parte
 superior de la páginas o en la barra de navegación.
-o Barra de navegación: Deberá estar situado en la parte superior
+**o Barra de navegación **: Deberá estar situado en la parte superior
 de las páginas que componen el sitio web. Esta barra deberá resaltar mediante el uso de estilos CSS la página del menú en la
 que se encuentra el usuario dentro del sitio web y deberá acompañar al usuario en el scroll vertical. Es decir, aunque el usuario
 pueda realizar scroll vertical, la barra de navegación deberá mantenerse fija en la parte superior quedando siempre a la vista.
-o Footer: El pie de página contendrá los logotipos de varias redes
+**o Footer**: El pie de página contendrá los logotipos de varias redes
 sociales, la dirección de la empresa y el aviso legal.
 
 #### (1 punto) Validación de las páginas HTML y apropiado uso de sus etiquetas y propiedades: ####
