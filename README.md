@@ -13,29 +13,34 @@ El archivo estará comprimido y se nombrará de la siguiente manera: nombre_apel
 (8 puntos) Realización del sitio web:
 Debéis crear un sitio web que esté compuesto de:
 
-#### • Una página de inicio (2 puntos) ####, que se llamará: index.html. Esta página será la portada del sitio web y deberá contener un mínimo de cuatro secciones, siendo una de ellas dónde se carguen noticias desde un archivo
+#### • Una página de inicio (2 puntos), que se llamará: index.html. Esta página será la portada del sitio web y deberá contener un mínimo de cuatro secciones, siendo una de ellas dónde se carguen noticias desde un archivo
 externo. Es recomendable que el archivo externo sea un archivo JSON
 aunque también se dará por válido si se trata de un XML.
 
-#### • Una página de galería (1punto) ####, que se llamará: galeria.html. Esta página
+#### • Una página de galería (1punto) , que se llamará: galeria.html. Esta página
 deberá incorporar una galería dinámica utilizando JavaScript o cualquier
 librería de JavaScript o jQuery. También puedes utilizar un plugin que ya
 esté creado.
 
-#### • Una página de presupuesto (3 puntos)####, que se llamará: presupuesto.html.
+#### • Una página de presupuesto (3 puntos), que se llamará: presupuesto.html.
 Esta página deberá contener un formulario que se divida en dos partes:
 o Datos de contacto (1 punto): En esta primera parte del formulario
 se solicitarán los datos de contacto del usuario. Los datos de contacto se deberán validar utilizando JavaScript, para que cumplan
 con los siguientes criterios:
+
     ▪ Nombre: Sólo podrá contener letras y tendrá una longitud  
     máxima de 15 caracteres.
+    
     ▪ Apellidos: Sólo podrá contener letras y tendrá una longitud máxima de 40 caracteres.
-    ▪ Teléfono de contacto: Sólo podrá contener números y
-    tendrá una longitud máxima de 9 dígitos.
+    
+    ▪ Teléfono de contacto: Sólo podrá contener números y tendrá una longitud máxima de 9 dígitos.
+    
     ▪ Correo electrónico: Deberá cumplir con los estándares de
     un correo electrónico. Ejemplo: nnnnn_nnn@zzzzz.xxx
+    
 o Presupuesto (2 puntos): En esta segunda parte del formulario se solicitará al usuario que elija entre varias opciones para calcular 
     un presupuesto. Las opciones deberán ser:
+    
     ▪ Producto: Deberás utilizar las etiquetas HTML pertinentes que permitan al usuario elegir entre varias opciones. Cada
     opción llevará un precio asociado. Deberás poner un mínimo de tres opciones.
     ▪ Plazo: Deberás utilizar una etiqueta HTML (input numérico)
@@ -51,12 +56,12 @@ o Presupuesto (2 puntos): En esta segunda parte del formulario se solicitará al
     formulario todos los campos deberán estar cumplimentados (incluido el de la aceptación de las condiciones) y 
     deberán validar todos los datos del apartado de contacto.
 
-#### • Una página de contacto (1 punto) ####, que se llamará: contacto.html. En esta
+#### • Una página de contacto (1 punto) , que se llamará: contacto.html. En esta
 página deberás insertar un mapa dinámico, que marque la ubicación de
 tu negocio y calcule la ruta hasta la ubicación del cliente. Para ello podrás
 hacer uso de una API como la de Google Maps o OpenStreetMaps, así
 como de varias librerías de JavaScript. Además del mapa, deberás especificar los datos de contacto y ubicación de la empresa, la ubicación de estos queda a tu elección.
-#### • Estilo y elementos obligatorios (1 punto) ####:
+#### • Estilo y elementos obligatorios (1 punto):
 El sitio deberá tener un estilo atractivo y actual. Puedes ayudarte de paletton para elegir los colores del sitio web, puedes seleccionar un color y
 su complementario o un máximo de tres colores además del blanco y
 negro. Recuerda que también puedes inspirarte en páginas reales para
@@ -81,6 +86,6 @@ Web Validator para Visual Studio Code).
 Además, deberás utilizar correctamente las etiquetas HTML y sus propiedades
 para cada apartado.
 
-#### (1 punto) Estructura del proyecto y comentarios: ####
+#### (1 punto) Estructura del proyecto y comentarios: 
 El proyecto deberá estar organizado con una estructura de carpetas, como si se
 tratase de un proyecto real e incluir comentarios.
