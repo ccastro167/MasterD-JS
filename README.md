@@ -14,46 +14,44 @@ nombre_apellido1_trabajoJAVASCRIPT.zip o .rar
 1.2. ESPECIFICACIONES
 (8 puntos) Realización del sitio web:
 Debéis crear un sitio web que esté compuesto de:
+
 • Una página de inicio (2 puntos), que se llamará: index.html. Esta página será la portada del sitio web y deberá contener un mínimo de cuatro secciones, siendo una de ellas dónde se carguen noticias desde un archivo
 externo. Es recomendable que el archivo externo sea un archivo JSON
 aunque también se dará por válido si se trata de un XML.
+
 • Una página de galería (1punto), que se llamará: galeria.html. Esta página
 deberá incorporar una galería dinámica utilizando JavaScript o cualquier
 librería de JavaScript o jQuery. También puedes utilizar un plugin que ya
 esté creado.
+
 • Una página de presupuesto (3 puntos), que se llamará: presupuesto.html.
 Esta página deberá contener un formulario que se divida en dos partes:
 o Datos de contacto (1 punto): En esta primera parte del formulario
 se solicitarán los datos de contacto del usuario. Los datos de contacto se deberán validar utilizando JavaScript, para que cumplan
 con los siguientes criterios:
-▪ Nombre: Sólo podrá contener letras y tendrá una longitud
-máxima de 15 caracteres.
-▪ Apellidos: Sólo podrá contener letras y tendrá una longitud máxima de 40 caracteres.
-▪ Teléfono de contacto: Sólo podrá contener números y
-tendrá una longitud máxima de 9 dígitos.
-▪ Correo electrónico: Deberá cumplir con los estándares de
-un correo electrónico. Ejemplo: nnnnn_nnn@zzzzz.xxx
-o Presupuesto (2 puntos): En esta segunda parte del formulario se
-solicitará al usuario que elija entre varias opciones para calcular
-un presupuesto. Las opciones deberán ser:
-▪ Producto: Deberás utilizar las etiquetas HTML pertinentes
-que permitan al usuario elegir entre varias opciones. Cada
-opción llevará un precio asociado. Deberás poner un mínimo de tres opciones.
-▪ Plazo: Deberás utilizar una etiqueta HTML (input numérico)
-que permita al usuario indicar el número de meses o días
-en los que desea recibir el producto. Según el valor introducido se le aplicará un descuento sobre el presupuesto
-final.
-▪ Extras: Deberás utilizar varias etiquetas HTML que permitan que el usuario marque todas las opciones extra que
-desea añadir al producto elegido. Cada opción seleccionada aumentará el presupuesto final en un importe determinado.
-▪ Presupuesto: Deberás utilizar las etiquetas HTML pertinentes para mostrar al usuario el presupuesto final, basado
-en las elecciones que ha realizado. Este campo deberá actualizarse con cualquier cambio que se realice en las elecciones de producto, meses y extras, sin utilizar botones ni
-refrescar la página.
-▪ Condiciones y envío del presupuesto: En este apartado
-deberás utilizar una etiqueta HTML que te permita crear
-una opción para aceptar las condiciones de privacidad de
-la página y un botón que permita enviar el formulario. De
-forma adicional, podrás crear un botón que permita resetear el formulario. Recuerda que para poder enviar el
-formulario todos los campos deberán estar cumplimentados (incluido el de la aceptación de las condiciones) y deberán validar todos los datos del apartado de contacto.
+    ▪ Nombre: Sólo podrá contener letras y tendrá una longitud  
+    máxima de 15 caracteres.
+    ▪ Apellidos: Sólo podrá contener letras y tendrá una longitud máxima de 40 caracteres.
+    ▪ Teléfono de contacto: Sólo podrá contener números y
+    tendrá una longitud máxima de 9 dígitos.
+    ▪ Correo electrónico: Deberá cumplir con los estándares de
+    un correo electrónico. Ejemplo: nnnnn_nnn@zzzzz.xxx
+o Presupuesto (2 puntos): En esta segunda parte del formulario se solicitará al usuario que elija entre varias opciones para calcular 
+    un presupuesto. Las opciones deberán ser:
+    ▪ Producto: Deberás utilizar las etiquetas HTML pertinentes que permitan al usuario elegir entre varias opciones. Cada
+    opción llevará un precio asociado. Deberás poner un mínimo de tres opciones.
+    ▪ Plazo: Deberás utilizar una etiqueta HTML (input numérico)
+    que permita al usuario indicar el número de meses o días en los que desea recibir el producto. 
+    Según el valor introducido se le aplicará un descuento sobre el presupuesto final.
+    ▪ Extras: Deberás utilizar varias etiquetas HTML que permitan que el usuario marque todas las opciones extra que
+    desea añadir al producto elegido. Cada opción seleccionada aumentará el presupuesto final en un importe determinado.
+    ▪ Presupuesto: Deberás utilizar las etiquetas HTML pertinentes para mostrar al usuario el presupuesto final, basado
+    en las elecciones que ha realizado. Este campo deberá actualizarse con cualquier cambio que se realice en las elecciones de producto, meses y extras, sin utilizar      botones ni refrescar la página.
+    ▪ Condiciones y envío del presupuesto: En este apartado deberás utilizar una etiqueta HTML que te permita crear
+    una opción para aceptar las condiciones de privacidad de la página y un botón que permita enviar el formulario. 
+    De forma adicional, podrás crear un botón que permita resetear el formulario. Recuerda que para poder enviar el
+    formulario todos los campos deberán estar cumplimentados (incluido el de la aceptación de las condiciones) y 
+    deberán validar todos los datos del apartado de contacto.
 
 • Una página de contacto (1 punto), que se llamará: contacto.html. En esta
 página deberás insertar un mapa dinámico, que marque la ubicación de
