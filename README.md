@@ -73,10 +73,12 @@ Además, cada página del sitio deberá contener de forma obligatoria los siguie
 
 **o Nombre de la página o logotipo**: Deberá estar situado en la parte
 superior de la páginas o en la barra de navegación.
+
 **o Barra de navegación**: Deberá estar situado en la parte superior
 de las páginas que componen el sitio web. Esta barra deberá resaltar mediante el uso de estilos CSS la página del menú en la
 que se encuentra el usuario dentro del sitio web y deberá acompañar al usuario en el scroll vertical. Es decir, aunque el usuario
 pueda realizar scroll vertical, la barra de navegación deberá mantenerse fija en la parte superior quedando siempre a la vista.
+
 **o Footer**: El pie de página contendrá los logotipos de varias redes
 sociales, la dirección de la empresa y el aviso legal.
 
