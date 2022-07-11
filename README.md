@@ -2,29 +2,27 @@
 Proyecto Final Javascript
 
 ## 1.1. INSTRUCCIONES ##
+
 Como ejercicio final del módulo se debe crear un sitio web, podrá ser de una
-empresa ficticia o vuestro sitio como programadores web. La información no
-tiene por qué ser real.
-Para la realización de esta maqueta deberéis utilizar: HTML5, CSS3, JavaScript,
-Ajax y los plugins o librerías que necesitéis.
-El archivo estará comprimido y se nombrará de la siguiente manera:
-nombre_apellido1_trabajoJAVASCRIPT.zip o .rar
+empresa ficticia o vuestro sitio como programadores web. La información no tiene por qué ser real.
+Para la realización de esta maqueta deberéis utilizar: HTML5, CSS3, JavaScript, Ajax y los plugins o librerías que necesitéis.
+El archivo estará comprimido y se nombrará de la siguiente manera: nombre_apellido1_trabajoJAVASCRIPT.zip o .rar
 
 
-1.2. ESPECIFICACIONES
+## 1.2. ESPECIFICACIONES ##
 (8 puntos) Realización del sitio web:
 Debéis crear un sitio web que esté compuesto de:
 
-• Una página de inicio (2 puntos), que se llamará: index.html. Esta página será la portada del sitio web y deberá contener un mínimo de cuatro secciones, siendo una de ellas dónde se carguen noticias desde un archivo
+#### • Una página de inicio (2 puntos) ####, que se llamará: index.html. Esta página será la portada del sitio web y deberá contener un mínimo de cuatro secciones, siendo una de ellas dónde se carguen noticias desde un archivo
 externo. Es recomendable que el archivo externo sea un archivo JSON
 aunque también se dará por válido si se trata de un XML.
 
-• Una página de galería (1punto), que se llamará: galeria.html. Esta página
+#### • Una página de galería (1punto) ####, que se llamará: galeria.html. Esta página
 deberá incorporar una galería dinámica utilizando JavaScript o cualquier
 librería de JavaScript o jQuery. También puedes utilizar un plugin que ya
 esté creado.
 
-• Una página de presupuesto (3 puntos), que se llamará: presupuesto.html.
+#### • Una página de presupuesto (3 puntos)####, que se llamará: presupuesto.html.
 Esta página deberá contener un formulario que se divida en dos partes:
 o Datos de contacto (1 punto): En esta primera parte del formulario
 se solicitarán los datos de contacto del usuario. Los datos de contacto se deberán validar utilizando JavaScript, para que cumplan
@@ -53,12 +51,12 @@ o Presupuesto (2 puntos): En esta segunda parte del formulario se solicitará al
     formulario todos los campos deberán estar cumplimentados (incluido el de la aceptación de las condiciones) y 
     deberán validar todos los datos del apartado de contacto.
 
-• Una página de contacto (1 punto), que se llamará: contacto.html. En esta
+#### • Una página de contacto (1 punto) ####, que se llamará: contacto.html. En esta
 página deberás insertar un mapa dinámico, que marque la ubicación de
 tu negocio y calcule la ruta hasta la ubicación del cliente. Para ello podrás
 hacer uso de una API como la de Google Maps o OpenStreetMaps, así
 como de varias librerías de JavaScript. Además del mapa, deberás especificar los datos de contacto y ubicación de la empresa, la ubicación de estos queda a tu elección.
-• Estilo y elementos obligatorios (1 punto):
+#### • Estilo y elementos obligatorios (1 punto) ####:
 El sitio deberá tener un estilo atractivo y actual. Puedes ayudarte de paletton para elegir los colores del sitio web, puedes seleccionar un color y
 su complementario o un máximo de tres colores además del blanco y
 negro. Recuerda que también puedes inspirarte en páginas reales para
@@ -75,7 +73,7 @@ pueda realizar scroll vertical, la barra de navegación deberá mantenerse fija 
 o Footer: El pie de página contendrá los logotipos de varias redes
 sociales, la dirección de la empresa y el aviso legal.
 
-(1 punto) Validación de las páginas HTML y apropiado uso de sus etiquetas y propiedades:
+#### (1 punto) Validación de las páginas HTML y apropiado uso de sus etiquetas y propiedades: ####
 El HTML de todas las páginas debe validar sin fallos ni advertencias. Recuerda
 que puedes comprobar que valide correctamente a través de: W3C Validator o
 instalando un complemento de validación en tu editor de código (cómo W3C
@@ -83,6 +81,6 @@ Web Validator para Visual Studio Code).
 Además, deberás utilizar correctamente las etiquetas HTML y sus propiedades
 para cada apartado.
 
-(1 punto) Estructura del proyecto y comentarios:
+#### (1 punto) Estructura del proyecto y comentarios: ####
 El proyecto deberá estar organizado con una estructura de carpetas, como si se
 tratase de un proyecto real e incluir comentarios.
